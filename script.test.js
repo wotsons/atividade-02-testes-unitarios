@@ -78,13 +78,13 @@ describe("Gerenciamento de itens", () => {
   test("Deve remover vários itens", () => {
     const item1 = {
       id: 1,
-      nome: "Racão",
+      nome: "Racão Miau",
       preco: "25,80",
       estoque: 1
     };
     const item2 = {
       id:2,
-      nome: "whiskas",
+      nome: "Anti-pulgas",
       preco: "119,80",
       estoque: 1
     };
@@ -101,7 +101,7 @@ describe("Gerenciamento de itens", () => {
   test("Não deve permitir dois itens iguais", () => {
     const item1 = {
       id: 1,
-      nome: "Racão",
+      nome: "Anti-pulgas",
       preco: "25,80",
       estoque: 1
     };
@@ -119,7 +119,7 @@ describe("Gerenciamento de itens", () => {
   test("Deve remover todos os itens", () => {
     const item1 = {
       id: 1,
-      nome: "Racão d",
+      nome: "Anti-pulgas",
       preco: "25,80",
       estoque: 1
     };
@@ -155,7 +155,7 @@ describe("Gerenciamento de itens", () => {
   test("Deve verificar se há estoque do item", () => {
     const item = {
       id: 1,
-      nome: "Ração",
+      nome: "Anti-pulgas",
       preco: "25,80",
       estoque: 0
     };
